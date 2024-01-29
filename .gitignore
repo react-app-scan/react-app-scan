@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+**/__pycache__/
+
+# Environment files
+.env
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+__pycache__/**
+
+logs/**
+exports/**
+*.log
+*.json
+*.csv
+jsx-test/**

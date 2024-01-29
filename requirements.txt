@@ -1,0 +1,8 @@
+func_timeout==4.3.5
+networkx==3.1
+sty==1.0.0rc0
+tqdm
+pysimplegui
+flask
+tinydb
+esprima

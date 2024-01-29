@@ -1,16 +1,35 @@
-### Hi there 👋
+# ReactAppScan
 
-<!--
-**react-app-scan/react-app-scan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ReactAppScan constructs a Component Graph (CoG) for tracking
+React Data Flow and detect vulnerabilities following both JavaScript
+and React data flows.
 
-Here are some ideas to get you started:
+## Getting Started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+To set up your environment for ReactAppScan, please refer to our [Setup Guide](./SETUP.md). This guide provides detailed instructions on how to install and configure all the necessary dependencies.
+
+## Options
+
+The following options are available:
+
+- `input_file`: Source code file or directory of a package to generate a component graph for.
+
+- `--timeout <seconds>`: Time limit for testing an entrance.
+
+- `--run-env <path>`: Set the running environment location.
+
+- `-t, --vul-type <type>`: Set the vulnerability type, e.g., 'xss', to be checked.
+
+- `--babel <path>`: Use Babel to convert files first.
+
+- `--export <mode>`: Export the graph to CSV files. Can be 'light' or 'all'.
+
+- `--is-jsx-application`: Flag to run a JSX application.
+
+- `--service-entry <path>`: If set, start from the path to register services.
+
+- `--log-base-location <path>`: Specify the base location for logs.
+
+- `--package-timeout <seconds>`: Time limit for testing a package.
+
+- `--jsx-package`: Run a JSX package.

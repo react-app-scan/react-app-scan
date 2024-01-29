@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "click-to-react-component": "^1.1.0",
+    "mocha": "^10.2.0"
+  }
+}
